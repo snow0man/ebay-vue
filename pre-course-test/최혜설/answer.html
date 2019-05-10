@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<style type="text/css">
+	.box {
+		width: 400px;
+		height: 300px;
+		border: 1px solid #444444;
+	}
+	.box .left-tab {
+		width: 28%;
+		height: 100%;
+		background-color: #fae03c;
+		float:left;
+		position: relative;
+		border-right: 1px solid #444444;
+	}
+	.box .left-tab .item {
+		font-size: 20px;
+		height : 30px;
+		padding-left: 10px;
+		border-bottom: 1px solid #444444;
+	}
+	.box .left-tab .footer {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.box .item span:hover {
+		font-weight:bold;
+		color:#dd4132;
+	}
+	.box .content {
+		width: 71.7%;
+		height: 100%;
+		background-color: #f7cac9;
+		float:left;
+	} 
+	.box .content .text{
+		font-size: 20px;
+		display: block;
+		padding: 10px;
+	}
+	.box .content .button{
+		margin-left: 10px;
+		border: 0;
+		padding: 5px 20px;
+		color: #000;
+		box-shadow: 1px 1px 4px #444;
+		background: #fff;
+		display: inline-block;
+		cursor: pointer;
+	}
+	.box .content .button:hover{
+		background:034f84;
+		color:#98ddde;
+	}
+</style>
+<body>
+	<div class="box">
+		<div class="left-tab">
+		  <nav class="item">
+			<span>news</span>
+		  </nav>
+		  <nav class="item">
+			<span>posts</span>
+		  </nav>
+		  <nav class="item">
+			<span>profile</span>
+		  </nav>
+		  <footer class="footer">2019 Ebay Korea</footer>
+		</div>
+		<div class="content">
+		  <span class="text">Hello Ebay</span>
+		  <button class="button">Read more...</button>
+
+		  <input type='text' id="user" value="">
+		</div>
+	</div>
+</body>
+<script src="./javascript.js"></script>
+</html>
